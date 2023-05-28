@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+img {
+  width: 100%;
+  /* grid-column: span 5;
+  object-fit: cover; */
+}
+
+p {
+  text-align: justify;
+}
+
+.info {
+  padding: 20px;
+  grid-column: span 2;
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0px 0px 5px 1px grey;
+  padding: 10px;
+}
